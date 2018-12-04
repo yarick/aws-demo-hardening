@@ -33,7 +33,7 @@ puts 'Please SET the above Envrioment variables before running kitchen' if @run_
 require 'rubygems'; require 'json';
 # puts  %x[aws ec2 describe-vpcs]
 
-# puts JSON.pretty_generate(JSON[STDIN.read]);"
+# p uts JSON.pretty_generate(JSON[STDIN.read]);"
 # puts JSON.pretty_generate(['CidrBlock: 172.31.0.0/16']);
 # puts '*****'
 
